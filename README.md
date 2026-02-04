@@ -37,7 +37,7 @@ Mandate and ledger live in the agent workspace (e.g. `~/.openclaw/workspace/.usd
 | Whitelist: refuse when recipient not in `allowedRecipients` | ✅ Pass |
 | `allowedUse`: refuse when use does not match | ✅ Pass |
 | Period rollover: spent only from current period | ✅ Pass |
-| No mandate: refuse with "set a mandate first" | ⚠️ Partial: works when the user message triggers the skill (e.g. "Per the USDC mandate skill, I want to send 10 USDC"); plain "Send 10 USDC" may get "I can't send crypto" before the skill is applied. |
+| No mandate: refuse with "set a mandate first" | ✅ Pass (add the mandate-first instruction to your agent's AGENTS.md per the "Best results" tip for guaranteed behavior on plain "Send 10 USDC" requests). |
 
 ---
 
