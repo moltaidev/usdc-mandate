@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "maxAmountPerPeriod": 50,
+  "period": "week",
+  "periodStart": "2026-02-04",
+  "allowedRecipients": ["any"],
+  "allowedUse": "any",
+  "note": "Copy to workspace as .usdc-mandate.json; edit values as needed."
+}
